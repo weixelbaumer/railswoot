@@ -1,4 +1,5 @@
 ActiveAdmin.register Woot do
+  permit_params :email, :firstname, :surname
 
   
   # See permitted parameters documentation:
